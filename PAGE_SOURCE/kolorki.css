@@ -1,0 +1,17 @@
+body {
+    font-size: 22pt;
+    color: darkgrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10% 10% 10% 10%;
+    background-color: cornsilk;
+}
+
+h3 {
+    font-size: 23pt;
+    color: rgba(0, 0, 0, .8);
+}
+
+p {
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
