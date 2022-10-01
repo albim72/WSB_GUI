@@ -15,3 +15,21 @@ p {
     font-size: 20pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+img {
+    width: 400px;
+}
+
+.obrazowy {
+    text-align: center;
+}
+
+td,
+th {
+    border-top: 2px solid rebeccapurple;
+    /*border-bottom: 2px solid rebeccapurple;*/
+}
+
+td.last {
+    border-bottom: 2px solid rebeccapurple;
+}
