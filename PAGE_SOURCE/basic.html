@@ -7,13 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierwsza strona</title>
     <style>
-        body {
-            font-size: 22pt;
-            color: darkgrey;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            margin: 10% 10% 10% 10%;
+        .kodowy {
+            font-size: 24pt;
+            color: crimson;
+            padding: 5% 5% 5% 5%;
+        }
+        
+        p.zielony {
+            color: darkgreen;
+            font-weight: bold;
+        }
+        
+        #mocnoszary {
+            color: rgba(166, 111, 111, 0.36);
+        }
+        
+        p#piaskowy {
+            color: rgba(168, 125, 7, 0.837);
         }
     </style>
+    <link rel="stylesheet" href="kolorki.css">
 </head>
 
 <body>
@@ -21,12 +34,12 @@
     <h3>Moja nowa koncepcja</h3>
 
     <p>
-        <p>Sed ut <strong>perspiciatis unde omnis</strong> iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+        <p class="zielony">Sed ut <strong>perspiciatis unde omnis</strong> iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
             ipsam <cite>voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</cite> magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
             velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
+        <p id="mocnoszary">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum
             qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
+        <p id="piaskowy">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
             mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
             voluptas assumenda est, omnis dolor repellendus.</p>
         <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores
@@ -34,11 +47,18 @@
 
         <p>
             <h3>Python code</h3>
-            <p>
+            <p class="kodowy">
                 <code>
                     &nbsp;&nbsp;def names(*args):<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return m*args[0]
                 </code>
+            </p>
+
+            <br>
+
+            <p>
+                przejdź do drugiej strony:
+                <a href="druga.html">kliknij tutaj!</a>
             </p>
         </p>
     </p>
